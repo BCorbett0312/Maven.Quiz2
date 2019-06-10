@@ -4,7 +4,7 @@ import java.util.*;
 
 public class ListUtility {
     List<Integer> myList = new ArrayList<>();
-    public Boolean add(int i) {
+    public Boolean add(Integer i) {
 
 
         return myList.add(i);
