@@ -1,6 +1,8 @@
 package com.zipcodewilmington.assessment2.part3;
 
-public class RedRobin extends Bird{
+import java.util.Comparator;
+
+public class RedRobin extends Bird {
 
     @Override
     public String getMigrationMonth() {
@@ -22,6 +24,8 @@ public class RedRobin extends Bird{
     public String color() {
         return "red";
     }
+
+
 
 
 }

@@ -17,7 +17,7 @@ public class ToStringTest {
                 new Pair<>("/users", "UserController"),
                 new Pair<>("/students", "StudentController"),
                 new Pair<>("/instructors", "InstructorController"),
-                new Pair<>("/students", "StudentController"));
+                new Pair<>("/students1", "StudentController"));
     }
 
 

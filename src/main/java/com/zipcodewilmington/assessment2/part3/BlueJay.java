@@ -1,6 +1,8 @@
 package com.zipcodewilmington.assessment2.part3;
 
-public class BlueJay extends Bird{
+import java.util.Comparator;
+
+public class BlueJay extends Bird {
     @Override
     public int getSpeed() {
         return 13;
@@ -10,4 +12,10 @@ public class BlueJay extends Bird{
     public String color() {
         return "blue";
     }
+
+
+
+
+
 }
+
