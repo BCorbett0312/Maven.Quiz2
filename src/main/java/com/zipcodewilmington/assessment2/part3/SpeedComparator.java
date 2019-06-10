@@ -6,9 +6,9 @@ import java.util.Comparator;
 
 public class SpeedComparator implements Comparator<Animal> {
     @Override
-    public int compare(Animal o1, Animal o2) {
-        if(o1.getSpeed()>o2.getSpeed()) return 1;
-        if(o1.getSpeed()<o2.getSpeed()) return -1;
+    public int compare(Animal animal1, Animal animal2) {
+        if(animal1.getSpeed()>animal2.getSpeed()) return -1;
+        if(animal1.getSpeed()<animal2.getSpeed()) return 1;
         else return 0;
     }
 }
