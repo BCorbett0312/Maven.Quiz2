@@ -1,14 +1,18 @@
 package com.zipcodewilmington.assessment2.part2;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ListUtility {
+    List<Integer> myList = new ArrayList<>();
     public Boolean add(int i) {
-        return null;
+
+
+        return myList.add(i);
     }
 
     public Integer size() {
-        return null;
+        return myList.size();
     }
 
     public List<Integer> getUnique() {
@@ -16,7 +20,17 @@ public class ListUtility {
     }
 
     public String join() {
-        return null;
+        String myString = "";
+
+        for(int i = 0; i < myList.size(); i ++) {
+            if (i < myList.size() - 1) {
+                myString += myList.get(i) + ", ";
+            } else {
+                myString += myList.get(i);
+            }
+
+        }
+        return myString;
     }
 
     public Integer mostCommon() {
@@ -24,6 +38,8 @@ public class ListUtility {
     }
 
     public Boolean contains(Integer valueToAdd) {
-        return null;
+
+
+        return myList.contains(valueToAdd);
     }
 }
