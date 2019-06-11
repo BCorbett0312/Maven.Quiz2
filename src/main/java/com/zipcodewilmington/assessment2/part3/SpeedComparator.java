@@ -11,4 +11,5 @@ public class SpeedComparator implements Comparator<Animal> {
         if(animal1.getSpeed()<animal2.getSpeed()) return 1;
         else return 0;
     }
+
 }
