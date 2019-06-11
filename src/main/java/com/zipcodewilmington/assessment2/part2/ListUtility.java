@@ -18,6 +18,7 @@ public class ListUtility {
         for(int i = 1; i < myList.size();i++){
             if (myList.get(i) == myList.get(i-1)){
                 myList.remove(i);
+                i--;
             }
         }
 
@@ -39,7 +40,7 @@ public class ListUtility {
     }
 
     public Integer mostCommon() {
-        //Collections.sort(myList);
+
         int highCount = 1;
         Integer res = myList.get(0);
 
